@@ -17,16 +17,16 @@ curl \
 git \
 wget
 
-RUN pip --no-cache-dir install \
-keras==2.3.1 \
-flask==1.1.2 \
-imageio==2.9.0 \
-seaborn==0.11.0 \
-opencv==4.5.0 \
-scikit-learn==0.23.2 \
-mtcnn==0.1.0 \
-requests==2.24.0 \
-gevent==20.9.0
+# RUN pip --no-cache-dir install \
+# keras==2.3.1 \
+# flask==1.1.2 \
+# imageio==2.9.0 \
+# seaborn==0.11.0 \
+# opencv==4.5.0 \
+# scikit-learn==0.23.2 \
+# mtcnn==0.1.0 \
+# requests==2.24.0 \
+# gevent==20.9.0
 
 COPY requirements.txt /app/requirements.txt
 
