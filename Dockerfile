@@ -18,23 +18,23 @@ git \
 wget
 
 # RUN pip --no-cache-dir install \
-# keras==2.3.1 \
-# flask==1.1.2 \
-# imageio==2.9.0 \
-# seaborn==0.11.0 \
-# opencv==4.5.0 \
-# scikit-learn==0.23.2 \
-# mtcnn==0.1.0 \
-# requests==2.24.0 \
-# gevent==20.9.0
+keras==2.3.1 \
+flask==1.1.2 \
+imageio==2.9.0 \
+seaborn==0.11.0 \
+opencv==4.5.1.48 \
+scikit-learn==0.23.2 \
+mtcnn==0.1.0 \
+requests==2.24.0 \
+gevent==20.9.0
 
-COPY requirements.txt /app/requirements.txt
+# COPY requirements.txt /app/requirements.txt
 
 # switch working directory
 WORKDIR /app
 
 # install the dependencies and packages in the requirements file
-RUN pip install -r requirements.txt
+# RUN pip install -r requirements.txt
 
 # copy every content from the local file to the image
 COPY . /app
