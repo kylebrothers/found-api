@@ -1,5 +1,7 @@
 FROM tensorflow/tensorflow:1.15.0-gpu-py3
 
+RUN apt-get update
+
 RUN apt-get install -y \
 build-essential \
 curl \
