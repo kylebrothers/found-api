@@ -17,7 +17,7 @@ curl \
 git \
 wget
 
-# RUN pip --no-cache-dir install \
+RUN pip --no-cache-dir install \
 keras==2.3.1 \
 flask==1.1.2 \
 imageio==2.9.0 \
