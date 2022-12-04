@@ -22,7 +22,7 @@ keras==2.3.1 \
 flask==1.1.2 \
 imageio==2.9.0 \
 seaborn==0.11.0 \
-opencv==4.5.1.48 \
+opencv-python==4.5.1.48 \
 scikit-learn==0.23.2 \
 mtcnn==0.1.0 \
 requests==2.24.0 \
