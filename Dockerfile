@@ -1,5 +1,6 @@
 FROM tensorflow/tensorflow:1.15.0-gpu-py3
 
+RUN add-apt-repository -r https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64
 RUN apt-get update
 
 RUN apt-get install -y \
