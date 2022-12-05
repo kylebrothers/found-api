@@ -33,6 +33,9 @@ gevent==20.9.0
 # switch working directory
 WORKDIR /app
 
+# Pull the model from 
+RUN wget https://www.dropbox.com/s/lrhcrkjut5ch37l/facenet_vgg.h5?dl=0
+
 # install the dependencies and packages in the requirements file
 # RUN pip install -r requirements.txt
 
